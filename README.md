@@ -1,38 +1,3 @@
-# PHP template project
-
-My template for PHP project or exercise (Kata)
-
-## Getting started
-
-### Clone the repository
-```shell
-git clone https://github.com/klnjmm/template-php.git your-project-name
-cd your-project-name
-```
-
-### Modify composer.json file
-* General informations like project name, description and license
-```json
-    "name": "klnjmm/template",
-    "description": "My template for PHP project",
-    "type": "project",
-    "license": "MIT",
-```
-
-### Init
-#### On Unix or Mac OS X system
-```shell
-make init
-make up
-```
-
-#### On Windows
-```shell
-rmdir /s /q .git
-git init
-composer install
-```
-
 ## Suivre les navires de pêche illégale
 
 Pour lutter contre la pêche illicite non déclarée et non reglementée afin de préserver les ressources marines, un système de suivi des navires par satellite (VMS) est mis
